@@ -1,3 +1,4 @@
+/*Univeral selectors for webpage */
 * {
     padding:0;
     margin: 0;
@@ -9,6 +10,7 @@
     scroll-behavior: smooth;
 }
 
+/*Sets display/look for Navigation bar */
 nav {
     font-size: 20px;
     line-height: 30px;
@@ -23,6 +25,7 @@ nav {
     z-index: 100;
 }
 
+/*Sets display for sections on webpage*/
 nav ul{
     margin: auto;
     padding: 10px;
@@ -41,19 +44,23 @@ nav li a{
  
 }
 
+/*Hover settings for each section on Nav bar*/
 nav a:hover {
     background-color: #6FEA8B;
     color: black;
+    transition: ease .5s;
+    
 }
-
+/*Header display & background image*/
 header {
-    height: 755px;
+    height: 775px;
     padding-top: 100px;
     font-size: 50px;
     text-align: center;
     background: url("./images/background.jpeg")
 
 }
+
 #header {
     display: flex;
     justify-content: center;
@@ -67,18 +74,20 @@ header h3 {
     color: white;
 }
 
-
+/* sets display for main section*/
 main{
     margin: auto;
-    padding: 100px;
+    padding: 80px;
     background-color: black;
 }
 
 main h3 {
     font-size: 30px;
     text-align: center;
+    padding: 20px;
 }
 
+/*sets container for about me section*/
 .box {
     display:flex;
     justify-content: center;
@@ -87,94 +96,94 @@ main h3 {
     margin: 10px;
 }
 
-
+/*sets main about me section*/
 #about-me {
-    height: 750px;
+    height: 800px;
     border-style: solid;
     border-color: limegreen;
     margin-top: 50px;
     padding: 120px 0;
-    
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .box p {
-    justify-self: center;
+    justify-self: left;
     padding: 20px;
     text-align: center;
 }
 
+/*sets about me image*/
 #about-me img {
     width: 270px;
-    height: 350px;
-    padding: 40px 40px;
-
-   
+    height: 370px;
+    padding: 5px;
+    border: 2px solid limegreen;
+    margin-bottom: 10px;
 }
 
-#first-applications p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 10px;
-}
-
-#first-application {
-    display: flex;
+/*sets container for portfolio*/
+.box-portfolio {
+    display:flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  
-
-}
-.apps img {
-    height: 300px;
-    width: 250px;
-    position:relative;
-    border: 1px solid limegreen;
+    margin: auto;
+    border: solid limegreen;
+    padding: 50px;
+    margin-top: 70px;
     
 }
 
-.apps {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
+.box-portfolio h3 {
+    flex-direction: column;
+    margin-top: 50px;
 }
 
+/*sets my first application elements*/
+.first-app {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
 
-#first-app img {
+.first-app h5 {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.first-app img{
     height: 300px;
     width: 400px;
     border: 1px solid limegreen;
-   
-    
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
-
-#portfolio {
-    height: 900px;
-    border-style: solid;
-    border-color: limegreen;
-    margin-top: 70px;
-    padding: 110px 0;
-}
-
-.portfolio h5 {
+/*sets my other application elements*/
+.other-apps {
     text-align: center;
-    padding: 20px 20px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
+.other-apps img {
+    height: 200px;
+    width: 300px;
+    border: 1px solid limegreen;
+    margin-right: 20px;
 
+}
 
+/*container for contact section*/
 #contact-me {
-    height: 700px;
+    height: 800px;
     border-style: solid;
     border-color: limegreen;
     margin-top: 70px;
-    padding: 110px 0;
+    padding: 90px 0;
 }
 
 .contact-me p{
@@ -185,7 +194,7 @@ main h3 {
     text-align: center;
 }
 
-
+/*sets contact form display*/
 form {
     max-width: 400px;
     margin: auto;
@@ -205,36 +214,52 @@ label {
     width: 100%;
 }
 
-
 .submit-button {
     margin-top: 20px;
 }
 
+/*sets display for name and email sections of form*/
 input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid limegreen;
+    border: 3px solid limegreen;
     border-radius: 5px;
     text-align: center;
 }
 
-
+/*sets display for submit button*/
 button[type="submit"] {
     background-color: limegreen;
     color: black;
     padding: 20px 30px;
-    border: 1px solid black;
+    border: 2px dotted black;
     border-radius: 5px;
     cursor: pointer;
     transition: ease 0.3s;
-   
-    
 }
 
+/*sets hover display for submit button*/
 button[type="submit"]:hover {
     background-color: white;
     color: limegreen;
 }
+
+/*sets display of social media links*/
+.socials {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.socials a,img {
+    height: 50px;
+    width: 50px;
+    padding: 4px;
+    margin: 0 5px;
+    text-decoration: none;
+    
+}
+
+    
