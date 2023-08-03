@@ -1,0 +1,240 @@
+* {
+    padding:0;
+    margin: 0;
+    font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: white;
+    letter-spacing: 2px;
+    scroll-behavior: smooth;
+}
+
+nav {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    background-color:black;
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul{
+    margin: auto;
+    padding: 10px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+ 
+}
+
+nav a:hover {
+    background-color: #6FEA8B;
+    color: black;
+}
+
+header {
+    height: 755px;
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+    background: url("./images/background.jpeg")
+
+}
+#header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h3 {
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+    color: white;
+}
+
+
+main{
+    margin: auto;
+    padding: 100px;
+    background-color: black;
+}
+
+main h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+#about-me {
+    height: 750px;
+    border-style: solid;
+    border-color: limegreen;
+    margin-top: 50px;
+    padding: 120px 0;
+    
+    
+}
+
+.box p {
+    justify-self: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#about-me img {
+    width: 270px;
+    height: 350px;
+    padding: 40px 40px;
+
+   
+}
+
+#first-applications p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#first-application {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+.apps img {
+    height: 300px;
+    width: 250px;
+    position:relative;
+    border: 1px solid limegreen;
+    
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+#first-app img {
+    height: 300px;
+    width: 400px;
+    border: 1px solid limegreen;
+   
+    
+}
+
+
+#portfolio {
+    height: 900px;
+    border-style: solid;
+    border-color: limegreen;
+    margin-top: 70px;
+    padding: 110px 0;
+}
+
+.portfolio h5 {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+
+#contact-me {
+    height: 700px;
+    border-style: solid;
+    border-color: limegreen;
+    margin-top: 70px;
+    padding: 110px 0;
+}
+
+.contact-me p{
+    justify-content: center;
+    padding: 30px;
+    height: min-content;
+    width: 500px;
+    text-align: center;
+}
+
+
+form {
+    max-width: 400px;
+    margin: auto;
+    align-items: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.submit-button {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid limegreen;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+button[type="submit"] {
+    background-color: limegreen;
+    color: black;
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease 0.3s;
+   
+    
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: limegreen;
+}
