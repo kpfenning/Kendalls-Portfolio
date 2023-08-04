@@ -1,13 +1,25 @@
 # Kendalls-Portfolio
 
-A webpage application that introduces myself, displays my portfolio and links to my applications, & includes a section for the user to submit contact information. 
+The use of this website is to allow users to get to know me, view my portfolio, and connect with me via email or social media. 
 
-## Webpage
+## Description
 
-Below you will find a screenshot of Kendall's Portfolio Site!!
+When a user selects an option on the navigation bar, it will scroll them down to that specific section! This webpage application starts off with an introduction and gives my educational background. Then within the portfolio section, it displays my portfolio and links to my applications. Then the user will find a contact section when they can submit their contact information or click one of social media links. 
 
 
 
-## Assets
+Below you will find screenshots of Kendall's Portfolio Site!!
+
+![screenschot of main page](<assets/Images/Main Page.png>)
+
+## Usage
 
 Link to webpage: 
+
+
+
+
+
+## License
+
+This project is licensed under the MIT License.
