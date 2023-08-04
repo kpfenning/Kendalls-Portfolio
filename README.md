@@ -15,6 +15,7 @@ Below you will find screenshots of Kendall's Portfolio Site!!
 ## Usage
 
 Link to webpage: 
+https://kpfenning.github.io/Kendalls-Portfolio/ 
 
 
 
